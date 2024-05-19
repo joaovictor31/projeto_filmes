@@ -2,12 +2,80 @@
     --primary-color: #F79920;
     --light-primary: #F2B669;
     --neutral: #FBD165;
-    --secondary-color: #557334;
-    --light-secondary: #8EAA6F;
+    --secondary-color: #415728;
+    --light-secondary: #739A47;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Merriweather", serif;
 }
 
 header{
-    font-family: "Merriweather", serif;
-    font-weight: 400;
-    font-style: normal;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 1rem;
+    background-color: var(--secondary-color);
+    color: white;
+}
+
+#search-container{
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+header > h2 > i {
+    margin-right: 0.5rem;
+}
+
+.movie-name-wrapper{
+    width: 65%;
+    display: flex;
+    align-items: center;
+    
+}
+
+.movie-year-wrapper{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    
+}
+
+#botao{
+    width: 5%;
+}
+
+#botao{
+    all: unset; /*Retira as configurações já predefinidas do botão*/
+    padding: 0.3rem;
+    border: 2px solid var(--neutral);
+    border-radius: 10px;
+}
+
+#botao:focus, #botao:hover{
+    background-color: var(--light-secondary);
+}
+
+.movie-year-wrapper > input{
+    max-width: 5rem;
+}
+
+.movie-name-wrapper > input{
+    width: 100%;
+}
+
+.movie-name-wrapper > input, .movie-year-wrapper > input{
+    margin: 0 0.5rem; /*o primeiro é cima e baixo, o segundo é esquerda e direita*/
+    border-radius: 7px;
+    padding: 0.3rem 0.2rem; /*Para não deixar o texto tão colado na área de preenchimento*/
+    font-weight: bold;
+}
+
+.movie-name-wrapper > label, .movie-year-wrapper > label{
+    font-weight: bold;
 }
