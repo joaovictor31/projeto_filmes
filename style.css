@@ -1,0 +1,13 @@
+:root{
+    --primary-color: #F79920;
+    --light-primary: #F2B669;
+    --neutral: #FBD165;
+    --secondary-color: #557334;
+    --light-secondary: #8EAA6F;
+}
+
+header{
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: normal;
+}
