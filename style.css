@@ -13,6 +13,13 @@
     font-family: "Merriweather", serif;
 }
 
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100dvh; /*Para que o body não se limite ao conteúdo que tem nele e pegue tudo da minha página*/
+
+}
+
 header{
     display: flex;
     justify-content: space-between;
@@ -26,6 +33,7 @@ header{
     display: flex;
     align-items: center;
     width: 50%;
+    justify-content: flex-end;
 }
 
 header > h2 > i {
@@ -40,7 +48,6 @@ header > h2 > i {
 }
 
 .movie-year-wrapper{
-    width: 30%;
     display: flex;
     align-items: center;
     
@@ -53,7 +60,7 @@ header > h2 > i {
 #botao{
     all: unset; /*Retira as configurações já predefinidas do botão*/
     padding: 0.3rem;
-    border: 2px solid var(--neutral);
+    border: 2px solid var(--primary-color);
     border-radius: 10px;
 }
 
@@ -78,4 +85,12 @@ header > h2 > i {
 
 .movie-name-wrapper > label, .movie-year-wrapper > label{
     font-weight: bold;
+}
+
+main{
+    text-align: center;
+    padding: 2rem 0;
+    background-color: var(--light-primary);
+    color: black;
+    flex-grow: 1; /* Cresça para ocupar todo o espaço que não foi ocupado pelos irmãos*/
 }
