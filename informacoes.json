@@ -1,0 +1,41 @@
+{
+    "Title": "The Truman Show",
+    "Year": "1998",
+    "Rated": "PG",
+    "Released": "05 Jun 1998",
+    "Runtime": "103 min",
+    "Genre": "Comedy, Drama",
+    "Director": "Peter Weir",
+    "Writer": "Andrew Niccol",
+    "Actors": "Jim Carrey, Ed Harris, Laura Linney",
+    "Plot": "An insurance salesman discovers his whole life is actually a reality TV show.",
+    "Language": "English",
+    "Country": "United States",
+    "Awards": "Nominated for 3 Oscars. 40 wins & 69 nominations total",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BMDIzODcyY2EtMmY2MC00ZWVlLTgwMzAtMjQwOWUyNmJjNTYyXkEyXkFqcGdeQXVyNDk3NzU2MTQ@._V1_SX300.jpg",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "8.2/10"
+      },
+      {
+        "Source": "Rotten Tomatoes",
+        "Value": "94%"
+      },
+      {
+        "Source": "Metacritic",
+        "Value": "90/100"
+      }
+    ],
+    "Metascore": "90",
+    "imdbRating": "8.2",
+    "imdbVotes": "1,188,725",
+    "imdbID": "tt0120382",
+    "Type": "movie",
+    "DVD": "01 May 2012",
+    "BoxOffice": "$125,618,201",
+    "Production": "N/A",
+    "Website": "N/A",
+    "Response": "True"
+  }
+  
